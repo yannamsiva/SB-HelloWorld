@@ -1,4 +1,4 @@
 FROM openjdk:11
 copy target/SB-HelloWorld.jar /usr/app/
-WORKDIR /USR/APP/
+WORKDIR /usr/app
 ENTRYPOINT ["JAVA","-jar","SB-HelloWorld.jar]
